@@ -5,16 +5,4 @@ contract HellowHord {
     function set(string memory message) public {
         storeMsg = message;
     }
-    function get() public view returns (string memory){
-        return storeMsg;
-    } 
-    Book memory book1 = Book({
-        title:'my book title',
-        price:25m
-        string [] author
-    })
-    Book[] public lib;
-    function addNewBook(Book memory book)  public {
-        lib.push(book)
-    }
 }

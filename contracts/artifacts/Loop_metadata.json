@@ -6,14 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "message",
-						"type": "string"
-					}
-				],
-				"name": "set",
+				"inputs": [],
+				"name": "loop",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -32,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/hello_word.sol": "HellowHord"
+			"contracts/WhileLoop.sol": "Loop"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/hello_word.sol": {
-			"keccak256": "0xb0f4a32b4b6c3e655290f95778349e0702942b4582a2540ad10d6cb424573392",
+		"contracts/WhileLoop.sol": {
+			"keccak256": "0x2e2541faab7cd90f51b324a52c6c1b1184f7fe8d7c271380187cc9dcd151c3d3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://742f228f3880b730b2b77bf41e1266b89f4abc5614a1b727e5a98a9881529d88",
-				"dweb:/ipfs/QmboM7Vk2A1YFS6HQds6Ns933biSk5SiFX6Mv8MRVQVLQf"
+				"bzz-raw://338224623e323bdc72ca8b7e9709d1ec4e9468b0880cbf778c67722b7c21e6e1",
+				"dweb:/ipfs/QmbKdmmyZPgXeQzvbYZrFEpsDadh5WR9u1tPxUwkq8D4U7"
 			]
 		}
 	},
